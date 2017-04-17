@@ -1,0 +1,71 @@
+html {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	height: auto;
+	min-height: 100%;
+	background: hsl(0, 0%, 89%);
+}
+
+body {
+	flex: 0 0 auto;
+	max-width: 50em;
+	height: auto;
+	padding: 1vh 5vw;
+	margin: 0 auto;
+	background: hsl(0, 0%, 92%);
+	font: 18px/1.2 sans-serif;5
+	color: hsl(0, 0%, 10%);
+}
+
+:focus {
+	outline: 4px auto hsl(130, 50%, 40%);
+	outline-offset: 3px;
+}
+
+
+
+
+header.page {
+	padding: 1em 0;
+	font: bold 30px/1.2 sans-serif;
+}
+
+ul.sites {
+	
+}
+
+li.site {
+	padding: 3vh 0;
+}
+
+li.site + li.site {
+	border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+}
+
+
+h1.title {
+	padding: 6px 0;
+	font: bold 24px/1.2 sans-serif;
+}
+
+p.description {
+	padding: 4px 0;
+}
+
+nav.links {
+	padding: 4px 0;
+}
+
+a.link {
+	color: hsl(130, 50%, 40%);
+}
+
+
+a.button {
+	display: inline-block;
+	padding: 4px 8px;
+	border: 1px solid;
+	border-radius: 4px;
+}
